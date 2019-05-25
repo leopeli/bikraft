@@ -11,5 +11,7 @@
 |
 */
 
-Route::get('/', 'ClienteController@index');
-Route::get('/', '')
+Route::get('/', 'InstitucionalController@index');
+Route::get('/about', 'InstitucionalController@about');
+Route::get('/cases', 'InstitucionalController@cases');
+Route::get('/contacts', 'InstitucionalController@contacts');

@@ -8,20 +8,21 @@
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsivo.css">
+		@stack('css')
 		<script src="js/libs/modernizr.custom.js"></script>
 	</head>
 	<body>
 		<header class="header">
 			<div class="container">
-				<a target="" href="index.html" class="grid-4">
+				<a target="" href="/" class="grid-4">
 					<img src="img/logo.png" alt="bikecraft">
 				</a>
 				<nav class="header_menu grid-12">
 					<ul>
-						<li><a href="sobre.html">Sobre</li></a>
-						<li><a href="produtos.html">Produtos</li></a>
-						<li><a href="portfolio.html">Portfólio</li></a>
-						<li><a href="contato.html">contato</li></a>
+						<li><a href="/about">Sobre</li></a>
+						<li><a href="#">Produtos</li></a>
+						<li><a href="/cases">Portfólio</li></a>
+						<li><a href="/contacts">contato</li></a>
 					</ul>
 				</nav>
 			</div>
